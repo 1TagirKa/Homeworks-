@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 109px auto 0;
+    max-width: 935px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+
+.main-content {
+    background-image: url(../images/phones.png);
+    align-self: center;
+    background-position: 0 0;
+    background-size: 454px 618px;
+    flex-basis: 454px;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+}
+
+.content-phone {
+    margin: 99px 0 0 151px;
+    position: relative;
+}
+
+.phone-window_images{
+    height: 427px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: visible;
+    width: 240px;
+}
+
+.registration {
+    display: flex;
+    color: rgba(var(--i1d,38,38,38),1);
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+    flex-direction: column;
+}
+
+.registration_window {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+.logo {
+    margin: 22px auto 12px;
+    background-size: 440px 411px;
+    background-position: 0 -129px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_2x_bcd90c1d4868.png/bcd90c1d4868.png);
+    background-repeat: no-repeat;
+    height: 51px;
+    width: 175px;
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+}
+
+.logo_border {
+    margin-bottom: 10px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.registration_form {
+    display: flex;
+    margin-top: 24px;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.login_border {
+    display: flex;
+    margin: 0 40px 6px;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 0;
+    position: relative;
+}
+
+.login_form {
+    display: flex;
+    align-items: center;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: rgba(var(--i1d,38,38,38),1);
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+}
+
+.article-label {
+    display: flex;
+    height: 36px;
+    flex: 1 0 0;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    min-width: 0;
+}
+
+.login_input {
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 0;
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+}
+
+.login_button_border{
+    display: flex;
+    margin: 8px 40px;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    background-color: rgba(var(--d69,0,149,246),.3);
+    opacity: 1;
+}
+
+.login_button{
+    border: 1px solid transparent;
+    pointer-events: none;
+    border-radius: 4px;
+    color: rgba(var(--eca,255,255,255),1);
+    position: relative;
+    appearance: none;
+    background: 0 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.login_button_text {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.or_border {
+    display: flex;
+    flex-shrink: 0;
+    margin: 10px 40px 18px;
+    flex-direction: row;
+}
+
+.or_line {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+    position: relative;
+    top: .40em;
+    align-items: stretch;
+}
+
+.or_text{
+    display: flex;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: rgba(var(--f52,142,142,142),1);
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.facebook{
+    display: flex;
+    margin: 8px 40px;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.facebook_button{
+    border: 0;
+    color: rgba(var(--d69,0,149,246),1);
+    display: inline;
+    padding: 0;
+    position: relative;
+    appearance: none;
+    background: 0 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.facebook_icon{
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+    background-position: -347px -329px;
+    background-size: 440px 411px;
+    background-image: url(https://instagram.com/static/bundles/es6/sprite_core_2x_bcd90c1d4868.png/bcd90c1d4868.png);
+    height: 16px;
+    width: 16px;
+}
+
+
+.forgot {
+    display: flex;
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.register_border {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    position: relative;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+.register {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: -3px 0 -4px;
+    justify-content: center;
+    height: 48px;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.acc {
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+
+.register_text {
+    color: rgba(var(--d69,0,149,246),1);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.download {
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.download_text{
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.download_apps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+.apps {
+    color: rgba(var(--fe0,0,55,107),1);
+    text-decoration: none;
+}
+
+.googleapp {
+    margin-right: 8px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.footer {
+    height: 99px;
+    margin-bottom: 52px;
+    width : calc(100% - 32px);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 42px;
+    margin-top: 22px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: min(100%, 840px);
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(var(--f52,142,142,142),1);
+}
+
+.footer-links {
+    height: 21px;
+    margin: 0 8px;
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    height: 23px;
+    display: flex;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.language {
+    padding-right: 10px;
+}
